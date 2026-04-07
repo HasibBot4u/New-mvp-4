@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://nexusedu.vercel.app/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://nexusedu.vercel.app/about</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexusedu.vercel.app/contact</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexusedu.vercel.app/success-stories</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexusedu.vercel.app/privacy</loc>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://nexusedu.vercel.app/terms</loc>
+    <priority>0.4</priority>
+  </url>
+</urlset>

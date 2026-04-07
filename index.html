@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <title>Apar's Classroom</title>
+    <meta name="description" 
+          content="দেশের শীর্ষস্থানীয় এড-টেক প্ল্যাটফর্ম। HSC, Admission এবং Skill Development কোর্স।">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Apar's Classroom">
+    <meta property="og:description" 
+          content="দেশের শীর্ষস্থানীয় এড-টেক প্ল্যাটফর্ম">
+    <meta property="og:image" 
+          content="https://aparsclassroom.com/images/logo.png">
+    <meta property="og:type" content="website">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    
+    <!-- Favicon — using original -->
+    <link rel="icon" type="image/png" 
+          href="https://aparsclassroom.com/images/logo.png">
+    
+    <!-- 
+      CRITICAL: The original site uses a custom Bengali font 
+      called "Kalpurush" loaded from their server.
+      We replicate this with Hind Siliguri (closest public match)
+      + define Kalpurush as an alias pointing to it.
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" 
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" 
+          rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
